@@ -5,9 +5,9 @@
 
 **1. Data Ingestion:**
 
-* Given the variety of data sources and the need for real-time, near-real-time, and batch data processing, Azure Data Factory would be a good choice for data ingestion.
+* Given the variety of data sources and the need for real-time, near-real-time, and batch data processing, [Azure Data Factory](azure-data-factory/README.md) would be a good choice for data ingestion.
 * It supports a wide range of source systems and allows you to create data-driven workflows for orchestrating and automating data movement and data transformation.
-* For real-time data ingestion, I can consider usage of Azure Event Hubs or Apache Kafka on Azure.
+* For real-time data ingestion, I can consider usage of [Azure Event Hubs](azure-event-hubs.md) or Apache Kafka on Azure.
   * These services can handle high volumes of data in real-time and can integrate with various data producers and consumers.
 
 **2. Data Storage:**
