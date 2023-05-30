@@ -76,4 +76,6 @@ To be able to design this solution I need to discuss some assumptions:
 ### Possible solutions
 
 1. [Pure Azure solution](azure-solution.md)
-2.
+
+### Miro diagram
+Diagrams are exported as images in this repository, original miro diagram can be found here - https://miro.com/app/board/uXjVMD95IPM=/
