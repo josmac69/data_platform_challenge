@@ -1,17 +1,4 @@
-# Azure Event Hubs
-
-**Azure Event Hubs**
-
-Azure Event Hubs is a real-time data ingestion service that is capable of processing millions of events per second. It can process and analyze the massive amounts of data produced by your connected devices and applications. Once collected into Event Hubs, the data can be transformed and stored using any real-time analytics provider or batching/storage adapters.
-
-Key Features:
-- Stream millions of events per second
-- Process or analyze data using real-time analytics providers
-- Capture data into Azure Data Lake Storage or Azure Blob Storage
-- Integrate seamlessly with a wide variety of downstream processing and storage services
-- Use Apache Kafka producer and consumer APIs with your existing Kafka applications without changing any code
-
-**Corresponding Tools on Other Cloud Platforms**
+# Azure Event Hubs - Corresponding Tools on Other Cloud Platforms
 
 1. **Amazon Kinesis (AWS)**
 
