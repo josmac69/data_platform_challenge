@@ -1,4 +1,4 @@
-# data_platform_challenge
+# Data Platform Challenge
 This repository contains data platform challenge I did for the company Y.
 
 ## Task
@@ -21,7 +21,7 @@ Ancillaries integrated into system are:
 - car sharing
 - insurances
 
-Requested features of the data platform are:
+### Requested features of the data platform are:
 
 * Ancillary Marketplace(AMP) is an API-first ecommerce solution that is composed of various microservices built in alignment with Domain Driven Design principles.
 * There are various product catalogs from different service providers that are aggregated in real-time, near-real-time and non-real-time to be sold in various stores within our business partners’ (Lufthansa, Austrian Airlines, Swiss Airlines etc.) web and mobile applications.
@@ -35,7 +35,7 @@ Design a system for a modern, scalable and resilient data platform by using data
 * The design should include a pipeline to store, stream and process data
 * The design should cover data governance and classification of PII data
 * The design should take into account maintainability, scalability, security, cost-optimization and efficiency.
-* The design should include a connection to BI tools to give business the freedom to analyse and visualise data
+* The design should include a connection to BI tools to give business the freedom to analyze and visualize data
 * The design should include a data strategy for at least one of the product groups(lounges, parking, taxis & rides, airport buses and trains, events, car rentals, accommodation etc.)
 
 ## Solution
