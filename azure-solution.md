@@ -14,7 +14,7 @@
 
 **2. Data Storage:**
 
-* For structured data, Azure SQL Database or Azure Cosmos DB can be used.
+* For structured data, [Azure SQL Database](azure-sql-database/README.md) or [Azure Cosmos DB](azure-cosmos-db/README.md) can be used.
   * Azure SQL Database is a fully managed relational database with auto-scale, integral intelligence, and robust security.
   * Azure Cosmos DB is a globally distributed, multi-model database service that can scale within minutes and offers multiple well-defined consistency models.
 * For unstructured or semi-structured data, Azure Blob Storage or Azure Data Lake Storage can be used.
@@ -22,7 +22,7 @@
 
 **3. Data Processing:**
 
-* Azure Databricks, an Apache Spark-based analytics platform, can be used for big data processing and machine learning workloads.
+* [Azure Databricks](azure-databricks/README.md), an Apache Spark-based analytics platform, can be used for big data processing and machine learning workloads.
 * It can handle batch and real-time data processing and integrates well with other Azure services.
 
 **4. Data Governance and Security:**
@@ -57,7 +57,7 @@
 * For CI/CD, using Azure DevOps or GitHub.
 * For containerization and orchestration, consider using Azure Kubernetes Service (AKS).
 
-* For data catalog, consider using Azure Data Catalog.
+* For data catalog, consider using [Azure Data Catalog](azure-data-catalog/README.md).
 * For data quality, consider using Azure Data Quality.
 * For data virtualization, consider using Azure Data Share.
 * For data integration, consider using Azure Data Share.
