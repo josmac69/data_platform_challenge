@@ -14,8 +14,23 @@ Azure Data Factory is a cloud-based data integration service that allows you to 
 - Security and Compliance:
   - It is integrated with Azure security and compliance, including Azure Private Link, Azure Virtual Network service endpoints, firewall rules, managed virtual network, and encryption at rest and in transit.
 
-## Key Concepts:
+## Key Concepts
+* Azure Data Factory allows you to create, schedule, and manage data pipelines for moving and transforming data at scale.
+* It provides a range of capabilities such as data movement, activity dispatch, and monitoring of data pipelines.
 
+Under the hood, Azure Data Factory uses several technologies to achieve its functionality:
+
+1. **Data Movement**: For data movement, it uses a globally deployed data movement service. This service is capable of copying data between various data stores in a secure, reliable, and scalable way.
+
+2. **Activity Dispatch**: Activities in Azure Data Factory, such as data movement activities and data transformation activities, are dispatched and managed by an Azure-based activity dispatching service.
+
+3. **Monitoring**: Azure Data Factory integrates with Azure Monitor and Azure Log Analytics for operational monitoring and debugging.
+
+4. **Transformations**: For data transformation, Azure Data Factory supports several compute services for executing transformation activities, such as Azure HDInsight for Hadoop-based transformations, Azure Databricks for Spark-based transformations, and Azure SQL Database for SQL-based transformations.
+
+5. **Integration Runtimes**: Azure Data Factory uses Integration Runtimes (IR) to provide the compute infrastructure used for data flow, data movement, and activity dispatch. There are three types of IRs: Azure, Self-hosted, and Azure-SSIS. They handle different scenarios and can be chosen based on the specific requirements of the data workload.
+
+While Azure Data Factory itself is not open-source, it can integrate with various open-source systems and technologies, such as Hadoop and Spark, as part of its data transformation capabilities.
 
 ## Notes:
 - Azure Data Factory is somehow [similar to Microsoft SQL Server Integration Services (SSIS)](adf-ssis.md), but it is a cloud-based service.
