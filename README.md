@@ -26,8 +26,10 @@ Ancillaries integrated into system are:
 * Marketplace is an API-first e-commerce solution that is composed of various microservices built in alignment with Domain Driven Design principles.
 * There are various product catalogs from different service providers that are aggregated in real-time, near-real-time and non-real-time to be sold in various stores within business partners’ web and mobile applications.
 * PostgreSQL, MongoDB, AWS S3 and Kafka are used to store and stream data in the platform.
-* The platform’s major product grmain-principleslike Azure, AWS or GCP. (Azure would be our preferred platform.)
-
+* The platform’s major product groups are lounges, parking, taxis & rides, airport buses and trains, events, car rentals, accommodation etc.
+* The system has PII data that needs to be carefully classified and protected
+* Design a system for a modern, scalable and resilient data platform by using data mesh principles.
+* The design should be done by using the services and tools of a major cloud platform like Azure, AWS or GCP. (Azure would be our preferred platform.)
 * The design should include a pipeline to store, stream and process data
 * The design should cover data governance and classification of PII data
 * The design should take into account maintainability, scalability, security, cost-optimization and efficiency.
