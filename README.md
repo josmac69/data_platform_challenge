@@ -12,6 +12,7 @@ Targeted solution should be:
 - unified product catalog
 - unified payment methods
 - unified customer integrations
+- Single Sign On (SSO) for all products (OneID or similar)
 
 Ancillaries integrated into system are:
 - bus or train tickets
